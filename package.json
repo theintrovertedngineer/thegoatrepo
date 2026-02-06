@@ -1,0 +1,21 @@
+{
+  "name": "goat-repo",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "run:elysia": "cd apps/api && bun --env-file=../../.env dev",
+    "run:eden": "cd apps/api-client && bun --env-file=../../.env dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "bun": "^1.3.8"
+  },
+  "devDependencies": {
+    "bun-types": "^1.3.8",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "bun@1.3.8"
+}

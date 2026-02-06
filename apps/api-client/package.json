@@ -1,0 +1,16 @@
+{
+  "name": "@goat-repo/api-client",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --bun src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "1.4.5",
+    "@goat-repo/api": "workspace:*"
+  },
+  "devDependencies": {
+
+  }
+}

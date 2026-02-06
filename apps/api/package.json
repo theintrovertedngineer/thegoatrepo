@@ -1,0 +1,19 @@
+{
+  "name": "@goat-repo/api",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/api.ts"
+  },
+  "scripts": {
+    "dev": "bun run --bun --hot --watch src/api.ts"
+  },
+  "dependencies": {
+    "@goat-repo/config": "workspace:*",
+    "@goat-repo/shared": "workspace:*",
+    "elysia": "latest",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": { }
+}
